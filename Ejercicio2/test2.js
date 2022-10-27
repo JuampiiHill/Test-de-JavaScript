@@ -1,5 +1,5 @@
-function presentacion(name, lastname, nickname)
+function presentacion(name, lastName, nickname)
 {
-    const completeName = name + " " + lastname;
+    const completeName = name + " " + lastName;
     console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + "." )
 }
