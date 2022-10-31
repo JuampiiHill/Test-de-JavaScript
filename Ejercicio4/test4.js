@@ -14,6 +14,9 @@ while(b >= 2){
 let respuesta;
 
 while (respuesta != "4") {
-    let pregunta = prompt("Para ver el contenido de esta clase debe responder correctamente la siguiente pregunta. ¿Cuanto es 2 + 2?")
+    let pregunta = prompt("¿Cuanto es 2 + 2?")
     respuesta = pregunta;
+}
+if(respuesta == 4){
+    alert("Felicitaciones");
 }
